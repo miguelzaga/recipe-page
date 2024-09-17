@@ -1,0 +1,70 @@
+/* Custom Properties */
+:root {
+    --rose-800: #7A284E;
+    --rose-50: #FFF7FB;
+    --stone-900: #312e2c;
+    --stone-600: #5f564d;
+    --stone-150: #e3ddd7;
+    --stone-100: #f3e5d7;
+    --brown-800: #854632;
+}
+
+/* Fonts */
+@font-face {
+    font-family: "Outfit";
+    src: url("../assets/fonts/outfit/Outfit-VariableFont_wght.ttf");
+}
+
+@font-face {
+    font-family: "Young Serif";
+    src: url("../assets/fonts/young-serif/YoungSerif-Regular.ttf");
+}
+
+
+/* Typography */
+.text-preset-1 {
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 1;
+    letter-spacing: 0;
+    @media (max-width: 425px)  {
+        font-size: 36px;
+    }
+}
+
+.text-preset-2 {
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 1;
+    letter-spacing: 0;
+}
+
+.text-preset-3 {
+    font-family: "Outfit", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1;
+    letter-spacing: 0;
+}
+
+.text-preset-4 {
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0;
+}
+
+.text-preset-4 {
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0;
+}
+
+.bold {
+    font-weight: bold;
+}
